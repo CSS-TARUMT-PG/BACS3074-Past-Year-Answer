@@ -7,7 +7,7 @@
 - [Question 3](#question-3)
 - [Question 4](#question-4)
 
-> ![Note]
+> [!IMPORTANT]
 > View the diagrams in website that supports mermaid syntax, instead of mobile app.
 
 ## Answers
