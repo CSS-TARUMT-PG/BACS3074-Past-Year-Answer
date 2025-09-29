@@ -159,8 +159,6 @@ The patient is likely to have heart failure since P(Yes|D) > P(No|D).
 
 ii)
 
-Artificial Neural Network structure in mermaid:
-
 ```mermaid
 graph LR
     subgraph "Input Layer"
