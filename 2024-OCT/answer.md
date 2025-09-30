@@ -92,7 +92,7 @@ b)
   1. The large dog using the red hat to bite the man.
   2. The man is wearing a red hat.
 
-b)
+c)
 
 > [!NOTE]
 > I suppose that the grammar rules missed out the preposition "a", so my answer includes "a" in the parse tree.
