@@ -1,6 +1,6 @@
-# BACS3074 OCT 2024 Answers
+# BACS3074 MAY 2024 Answers
 
-[Link to the paper](https://eprints.tarc.edu.my/30307/1/BACS3074.pdf)
+[Link to the paper](https://eprints.tarc.edu.my/29036/1/BACS3074.pdf)
 
 - [Question 1](#question-1)
 - [Question 2](#question-2)
