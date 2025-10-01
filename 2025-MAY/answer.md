@@ -102,10 +102,11 @@ graph TD
     NP1 --- Det1["the"]
     NP1 --- N1["burglar"]
     VP1 --- V1["threatened"]
-    VP1 --- NP2["NP"]
+    VP1 --- NP4["NP"]
+    NP4 --- NP2["NP"]
+    NP4 --- PP1["PP"]
     NP2 --- Det2["the"]
     NP2 --- N2["student"]
-    VP1 --- PP1["PP"]
     PP1 --- P1["with"]
     PP1 --- NP3["NP"]
     NP3 --- Det3["the"]
@@ -115,14 +116,15 @@ graph TD
 ```mermaid
 graph TD
     S --- NP1["NP"]
-    S --- VP1["VP"]
+    S --- VP2["VP"]
     NP1 --- Det1["the"]
     NP1 --- N1["burglar"]
+    VP2 --- VP1["VP"]
+    VP2 --- PP1["PP"]
     VP1 --- V1["threatened"]
     VP1 --- NP2["NP"]
     NP2 --- Det2["the"]
     NP2 --- N2["student"]
-    NP2 --- PP1["PP"]
     PP1 --- P1["with"]
     PP1 --- NP3["NP"]
     NP3 --- Det3["the"]
@@ -240,12 +242,12 @@ R1: MIN(0.3, -0.4) * 0.8 = -0.32 Alzheimer
 R2: MAX(0.75, 0.8) * 0.3 =  0.24 Alzheimer
 R3: MIN(0.8, 0.6) * 0.75 =  0.45 Alzheimer
 
-0.24 + 0.75 - (0.24 * 0.75) = 0.81 Alzheimer
-(-0.32 + 0.81) / 1 - MIN(|-0.32|, |0.81|)
-= 0.49 / 0.68
-= 0.7206 Alzheimer
+0.24 + 0.45 - (0.24 * 0.45) = 0.582 Alzheimer
+(-0.32 + 0.582) / 1 - MIN(|-0.32|, |0.582|)
+= 0.262 / 0.68
+= 0.3853 Alzheimer
 ```
 
-The Patient Z almost certainly has Alzheimer.
+The Patient Z maybe has Alzheimer.
 
 c) Fuzzy Logic can be used in air conditioners to maintain a comfortable room temperature. For example, if the temperature is hot, the speed of the fan can be set to high. If the temperature is cool, the speed of the fan can be set to low.
