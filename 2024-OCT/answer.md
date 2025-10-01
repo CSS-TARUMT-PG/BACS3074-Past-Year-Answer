@@ -116,8 +116,9 @@ graph TD
     NP6 --- NP5
     NP5["NP"] --- ADJ1
     NP5 --- N1
-    VP1["VP"] --- V1
+    VP1["VP"] --- VP2
     VP1 ---  NP4
+    VP2["VP"] --- V1
     NP4["NP"] --- Det2
     NP4 --- NP3
     NP3["NP"] --- N2
@@ -144,15 +145,16 @@ graph TD
     N3["hat"]
 
     S["S"] --- NP6
-    S --- VP2
+    S --- VP2["VP"]
     VP2 --- VP1
     VP2 --- PP1
     NP6["NP"] --- Det1
     NP6 --- NP5
     NP5["NP"] --- ADJ1
     NP5 --- N1
-    VP1["VP"] --- V1
+    VP1["VP"] --- VP3
     VP1 ---  NP4
+    VP3["VP"] --- V1
     NP4["NP"] --- Det2
     NP4 --- N2
     PP1["PP"] --- P1
@@ -268,3 +270,4 @@ R3: MAX(MIN(0.65, -1.0), 0.7) * 0.9 =  0.63 Influenza
 The patient definitely has Influenza.
 
 c) Air conditioner. If the temperature is high, increase the fan speed. If the temperature is low, decrease the fan speed.
+
